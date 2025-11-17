@@ -1,0 +1,23 @@
+{
+  "name": "realtime-websocket-server",
+  "version": "1.0.0",
+  "description": "WebSocket server với tính năng real-time cho Node.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "websocket",
+    "realtime",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.16.0",
+    "uuid": "^9.0.1"
+  }
+}
+
